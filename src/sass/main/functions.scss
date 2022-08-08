@@ -1,0 +1,32 @@
+
+
+
+.functions{
+    padding: 0 0 75px;
+    .functions__cards{
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        column-gap: 25px;
+        .functions__card{
+            padding: 45px 30px 30px;
+            border: 1px solid #EBEEF3;
+            box-shadow: 0px 18px 38px #EEF2F7;
+            border-radius: 12px;
+            max-width: 290px;
+            width: 100%;
+            .function__card-title{
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 22px;
+                margin: 24px 0 0 0;
+            }
+            .functions__card-text{
+                font-size: 16px;
+                line-height: 26px;
+                opacity: 0.7;
+                margin: 15px 0 0;
+            }
+        }
+    }
+}

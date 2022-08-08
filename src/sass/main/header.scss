@@ -1,0 +1,89 @@
+
+
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:  #FFFFFF;
+    z-index: 999;
+    .header__container{
+        display: flex;
+        justify-content: space-between;
+        align-items:center;
+        height: 64px;
+        .header__wrapper-left{
+            display: flex;
+            justify-content: space-between;
+            align-items:center;
+            .header__logo{
+                margin: 0 45px 0 0;
+            }
+            .header__navigation{
+                height: 100%;
+                .header__navigation-list{
+                    list-style: none;
+                    display:flex;
+                    align-items: center;
+                    .header__navigation-item{
+                        margin: 0 32px 0 0;
+                        .navigation-item__link{
+                            &:hover .navigation-item__link-text{
+                                border-bottom: 2px solid #f49530;
+                            }
+                            .navigation-item__link-text{
+                                font-family: 'Inter';
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 22px;
+                                opacity: 0.7;
+                                color: #242527;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .header__wrapper-right{
+            height:100%;
+            display: flex;
+            align-items: center;
+            .header-btn{
+                background-color: transparent;
+                border: none;
+                height: 44px;
+                border-radius: 999px;
+                font-weight: 500;
+                font-size: 15px;
+                line-height: 18px;
+                text-align: center;
+            }
+            .header__left-btn{
+                width: 126px;
+                background-color: #F2F7FF;
+                margin: 0 6px 0 0;
+                color: #015DFD;
+                &:hover{
+                    background-color: #E5EFFF;
+                }
+                &:active{
+                    background-color:#015DFD ;
+                    color: #fff;
+                }
+            }
+            .header__riht-btn{
+                width: 154px;
+                background-color: #5D3AEF;
+                color: #FFFFFF;
+                &:hover{
+                    background-color: #481EF2;
+                }
+                &:active{
+                    background-color: #4C27E2;
+                }
+            }
+        }
+    }
+}

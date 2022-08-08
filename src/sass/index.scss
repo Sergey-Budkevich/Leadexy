@@ -1,0 +1,51 @@
+@import url(modifications.scss);
+@import url(./main/header.scss);
+@import url(./main/about.scss);
+@import url(./main/functions.scss);
+@import url(./main/work.scss);
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #242527;
+}
+button{
+    border: none;
+}
+.btn:hover{
+    cursor:pointer;
+}
+.btn--gray{
+    color: #015DFD;
+    font-size: 16px;
+    line-height: 26px;
+    border-radius: 8px;
+    background: rgba(1, 93, 253, 0.05);
+    &:hover{
+        background-color: #E5EFFF;
+    }
+    &:active{
+        background-color:#015DFD ;
+        color: #fff;
+    }
+}
+
+
+
+.content{
+    max-width: calc(1208px + 16px * 2);
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
+}
